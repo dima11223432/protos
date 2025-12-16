@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-// version v0.0.2
-
 package authService;
 
 option go_package = "authService.sso.v1;ssov1";
@@ -23,7 +21,7 @@ message RegisterResponse{
 
 message LoginRequest{
   string email = 1;
-  string passwors = 2;
+  string password = 2;
   int32 app_id = 3;
 }
 
