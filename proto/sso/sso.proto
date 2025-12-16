@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+// version v0.0.2
+
 package authService;
 
 option go_package = "authService.sso.v1;ssov1";
